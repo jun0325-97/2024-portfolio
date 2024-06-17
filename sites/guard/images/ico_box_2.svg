@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="그룹_15940" data-name="그룹 15940" transform="translate(-491 -3721)">
+    <g id="그룹_15930" data-name="그룹 15930" transform="translate(13136.004 2139.777)">
+      <ellipse id="타원_180" data-name="타원 180" cx="9.658" cy="9.658" rx="9.658" ry="9.658" transform="translate(-12563.038 1625.076)" fill="none" stroke="#aaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_3193" data-name="패스 3193" d="M214.382,69.451h-31.3V57.414a9.942,9.942,0,0,1,9.942-9.943h11.42a9.943,9.943,0,0,1,9.943,9.943Z" transform="translate(-12752.109 1596.921)" fill="none" stroke="#aaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <ellipse id="타원_181" data-name="타원 181" cx="9.658" cy="9.658" rx="9.658" ry="9.658" transform="translate(-12627.255 1625.076)" fill="none" stroke="#aaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_3194" data-name="패스 3194" d="M144.88,69.451h-31.3V57.414a9.942,9.942,0,0,1,9.942-9.943h11.42a9.943,9.943,0,0,1,9.943,9.943Z" transform="translate(-12746.824 1596.921)" fill="none" stroke="#aaa" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <ellipse id="타원_182" data-name="타원 182" cx="11.771" cy="11.771" rx="11.771" ry="11.771" transform="translate(-12597.26 1616.039)" fill="#fff" stroke="#094cb9" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_3195" data-name="패스 3195" d="M182.774,69.055H144.619V54.384a12.118,12.118,0,0,1,12.118-12.119h13.919a12.118,12.118,0,0,1,12.118,12.119Z" transform="translate(-12749.185 1597.317)" fill="#fff" stroke="#094cb9" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_3196" data-name="패스 3196" d="M172.5,50.025l1.462,2.962,3.27.475-2.366,2.306.559,3.256L172.5,57.487l-2.924,1.537.559-3.256-2.366-2.306,3.27-.475Z" transform="translate(-12750.945 1596.727)" fill="#094cb9"/>
+    </g>
+    <rect id="사각형_1618" data-name="사각형 1618" width="120" height="120" transform="translate(491 3721)" fill="none"/>
+  </g>
+</svg>

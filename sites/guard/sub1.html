@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>대통령경호처</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_m.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>	
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>-->
+</head>
+<body>
+    <header class="active">
+        <div class="wrap">
+            <h1>
+                <a href="index.html" title="메인페이지로 이동">
+                    <span class="blind">대통령 경호처</span>
+                    <img src="images/logo_c.svg" alt="대통령경호처">
+                </a>
+            </h1>
+            <div class="menu">
+                <ul class="gnb pc">
+                    <li>
+                        <a href="#none">소식</a>
+                        <ul class="news tab">
+                            <li>
+                                <span><a href="#none">알림</a></span>
+                                <ul>
+                                    <li><a href="sub1.html" class="link_sub1">공지사항</a></li>
+                                    <li><a href="#none">언론보도</a></li>
+                                    <li><a href="#none">보도자료</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span><a href="#none">경호탐방</a></span>
+                                <ul>
+                                    <li><a href="#none">경호초점</a></li>
+                                    <li><a href="#none">현장포착</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span><a href="#none">홍보자료</a></span>
+                                <ul>
+                                    <li><a href="#none">홍보영상</a></li>
+                                    <li><a href="#none">발간자료</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">참여</a>
+                        <ul class="part tab">
+                            <li>
+                                <span><a href="#none">경호위험제보</a></span>
+                            </li>
+                            <li>
+                                <span><a href="#none">정보공개</a></span>
+                                <ul>
+                                    <li><a href="#none">정보공개제도</a></li>
+                                    <li><a href="#none">재정정보공개</a></li>
+                                    <li><a href="#none">서전정보 공표 목록</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span><a href="#none">민원</a></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">경호</a>
+                        <ul class="guard tab">
+                            <li>
+                                <span><a href="#none">경호활동</a></span>
+                                <ul>
+                                    <li><a href="sub2.html" class="link_sub2">대통령경호</a></li>
+                                    <li><a href="#none">경비안전</a></li>
+                                    <li><a href="#none">순방경호</a></li>
+                                    <li><a href="#none">국빈경호</a></li>
+                                    <li><a href="#none">정상회의</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>경호비전</span>
+                                <ul>
+                                    <li><a href="#none">경호마스터</a></li>
+                                    <li><a href="#none">과학경호</a></li>
+                                    <li><a href="#none">수탁교육</a></li>
+                                    <li><a href="#none">경호외교</a></li>
+                                    <li><a href="#none">경호회의체</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span>경호역사</span>
+                                <ul>
+                                    <li><a href="#none">경호시대사</a></li>
+                                    <li><a href="#none">경호기동사</a></li>
+                                    <li><a href="#none">경호추모관</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">소개</a>
+                             <ul class="intro tab">
+                            <li>
+                                <span><a href="#none">기관장 소개</a></span>
+                                <ul>
+                                    <li><a href="#none">인사말 및 약력</a></li>
+                                    <li><a href="#none">역대 기관장</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span><a href="#none">기관 소개</a></span>
+                                <ul>
+                                    <li><a href="#none">주요임무</a></li>
+                                    <li><a href="#none">연혁</a></li>
+                                    <li><a href="#none">CI</a></li>
+                                    <li><a href="#none">처훈·미션</a></li>
+                                    <li><a href="#none">조직도</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <span><a href="#none">관련법령</a></span>
+                            </li>
+                            <li>
+                                <span><a href="#none">경호안전교육원</a></span>
+                                <ul>
+                                    <li><a href="#none">일반현황</a></li>
+                                    <li><a href="#none">교육과정</a></li>
+                                    <li><a href="#none">교류협력</a></li>
+                                    <li><a href="#none">찾아오시는 길</a></li>
+                                </ul>
+                            </li>
+                        </ul>    
+                    </li>
+                </ul>
+                <ul class="link fl pc mid">
+                    <li><a href="#none">경호위협제보</a></li>
+                    <li><a href="#none">채용<img src="images/ico_link_w.svg" alt="채용링크"></a></li>
+                </ul>
+                <a href="#none" class="search fl">
+                    <img src="images/ico_search_w.svg" alt="검색">
+                    <span class="pc">Search</span>
+                </a>
+                <a href="#none" class="lang fl pc">
+                    <img src="images/ico_language_w.svg" alt="언어">
+                    <span>ENG</span>
+                </a>
+                <a href="#none" class="quick fl"><img src="images/ico_menu_w.svg" alt="전체메뉴"></a>
+            </div>
+        </div>
+        <div class="gnb_bg"></div>
+    </header>
+    
+    <div class="mobile_menu_bg mob">
+        <div class="mobile_menu mob">
+            <div class="bar">
+                <a href="#none" class="lang fl">
+                    <img src="images/ico_language_w.svg" alt="언어">
+                    <span>ENG</span>
+                </a>
+                <ul class="link fl">
+                    <li><a href="#none">경호위협제보</a></li>
+                    <li><a href="#none">채용<img src="images/ico_link_w.svg" alt="채용링크"></a></li>
+                </ul>
+                <a href="#none" class="close"><img src="images/ico_close.svg" alt="닫기 버튼"></a>
+            </div>
+    
+            <div class="bar_left">
+                <ul>
+                    <li class="select"><a href="#none">소식</a></li>
+                    <li><a href="#none">참여</a></li>
+                    <li><a href="#none">경호</a></li>
+                    <li><a href="#none">소개</a></li>
+                </ul>
+            </div>
+            <div class="bar_right">
+                <ul class="tab view">
+                    <li>
+                        <a href="#none">알림<span></span><span></span></a>
+                        <ul>
+                            <li><a href="sub1.html" class="link_sub1">공지사항</a></li>
+                            <li>언론보도</li>
+                            <li>보도자료</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">경호탐방<span></span><span></span></a>
+                        <ul>
+                            <li>경호초점</li>
+                            <li>현장포착</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">홍보자료<span></span><span></span></a>
+                        <ul>
+                            <li>홍보영상</li>
+                            <li>발간자료</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="tab">
+                    <li>
+                        <a href="#none">경호위협제보</a>
+                    </li>
+                    <li>
+                        <a href="#none">정보공개<span></span><span></span></a>
+                        <ul>
+                            <li>정보공개제도</li>
+                            <li>재정정보공개</li>
+                            <li>사전정보 공표 목록</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">민원</a>
+                    </li>
+                </ul>
+                <ul class="tab">
+                    <li>
+                        <a href="#none">경호활동<span></span><span></span></a>
+                        <ul>
+                            <li><a href="sub2.html" class="link_sub2">대통령경호</a></li>
+                            <li>경비안전</li>
+                            <li>순방경호</li>
+                        <li>국빈경호</li>
+                        <li>정상회의</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">경호비전<span></span><span></span></a>
+                        <ul>
+                            <li>경호마스터</li>
+                            <li>과학경호</li>
+                            <li>수탁교육</li>
+                            <li>경호외교</li>
+                            <li>경호회의체</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">경호역사<span></span><span></span></a>
+                        <ul>
+                            <li>경호시대사</li>
+                            <li>경호기동사</li>
+                            <li>경호추모관</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="tab">
+                    <li>
+                        <a href="#none">기관장소개<span></span><span></span></a>
+                        <ul>
+                            <li>인사말 및 약력</li>
+                            <li>역대 기관장</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">기관 소개<span></span><span></span></a>
+                        <ul>
+                            <li>주요임무</li>
+                            <li>연혁</li>
+                            <li>CI</li>
+                            <li>처훈·미션</li>
+                            <li>조직도</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#none">관련법령</a>
+                    </li>
+                    <li>
+                        <a href="#none">경호안전교육원<span></span><span></span></a>
+                        <ul>
+                            <li>일반현황</li>
+                            <li>교육과정</li>
+                            <li>교류협력</li>
+                            <li>찾아오시는 길</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    
+            <ul class="sns">
+                <li>
+                    <a href="#none">
+                        <img src="images/ico_facebook.svg" alt="페이스북 링크">
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <img src="images/ico_instagram.svg" alt="인스타그램 링크">
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <img src="images/ico_youtube.svg" alt="유튜브 링크">
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <img src="images/ico_twitter.svg" alt="트위터 링크">
+                    </a>
+                </li>
+            </ul>
+        </div>        
+    </div>
+    
+    <section id="sub1">
+        <div class="notice wrap">
+            <h2>공지사항</h2>
+            <ul class="route">
+                <li>홈</li>
+                <li>소식</li>
+                <li>알림</li>
+                <li>공지사항</li>
+            </ul>
+            <a href="#none" class="print"><img src="images/ico_print.svg" alt="프린트"></a>
+            <a href="#none" class="share"><img src="images/ico_share.svg" alt="공유"></a>
+            <input type="search" name="tit" placeholder="검색어를 입력하세요.">
+        </div>
+        <div class="post wrap">
+            <ul class="list">
+                <li class="pc">
+                    <p>제목</p>
+                    <div>작성일</div>
+                    <span>조회수</span>
+                </li>
+                <li class="impor">
+                    <p><span>공지</span>2023년 대통령경호처 홈페이지 개편관련 제안서 기술능력평가 결과 공개</p>
+                    <div>2023.06.02</div>
+                    <span></span>
+                </li>
+                <li class="impor">
+                    <p><span>공지</span>「대통령 등의 경호에 관한 법률 시행령」 일부개정령(안) 입법예고첨부파일 아이콘 <img src="images/ico_attachment_gray.svg" alt="파일첨부"></p>
+                    <div>2022.11.09</div>
+                    <span></span>
+                </li>
+                <li>
+                    <p>「대통령 등의 경호에 관한 법률 시행령」 일부개정령(안) 입법예고첨부파일 아이콘 <img src="images/ico_attachment_gray.svg" alt="파일첨부"></p>
+                    <div>2022.04.15</div>
+                    <span class="pc">3,054</span>
+                </li>
+                <li>
+                    <p>20년 대통령경호처 자체제안 우수상 수상작 공지</p>
+                    <div>2021.06.10</div>
+                    <span class="pc">3,083</span>
+                </li>
+                <li>
+                    <p>「대통령 등의 경호에 관한 법률」 일부개정법률(안) 입법예고첨부파일 아이콘 <img src="images/ico_attachment_gray.svg" alt="파일첨부"></p>
+                    <div>2020.08.19</div>
+                    <span class="pc">2,951</span>
+                </li>
+                <li>
+                    <p>신임 경호처장 임명장 수여식 관련 청와대 대변인 서면 브리핑</p>
+                    <div>2020.06.02</div>
+                    <span class="pc">2,969</span>
+                </li>
+                <li>
+                    <p>「대통령 등의 경호에 관한 법률 시행령」 일부 개정령(안) 입법예고첨부파일 아이콘 <img src="images/ico_attachment_gray.svg" alt="파일첨부"></p>
+                    <div>2019.12.30</div>
+                    <span class="pc">2,908</span>
+                </li>
+                <li>
+                    <p>2019 경호공무원 채용 설명회 안내</p>
+                    <div>2019.06.05</div>
+                    <span class="pc">3,035</span>
+                </li>
+                <li>
+                    <p>「대통령 등의 경호에 관한 법률 시행령」 일부개정령(안) 입법예고첨부파일 아이콘 <img src="images/ico_attachment_gray.svg" alt="파일첨부"></p>
+                    <div>2019.03.14</div>
+                    <span class="pc">2,876</span>
+                </li>
+                <li>
+                    <p>흔하지만 특별한 나무들 – 청와대 나무 이야기</p>
+                    <div>2019.01.08</div>
+                    <span class="pc">2,896</span>
+                </li>
+                <li>
+                    <p>'대통령 등의 경호에 관한 법률 시행령' 개정안에 대한 입법예고첨부파일 아이콘 <img src="images/ico_attachment_gray.svg" alt="파일첨부"></p>
+                    <div>2018.08.28</div>
+                    <span class="pc">2,860</span>
+                </li>
+                <li>
+                    <p>효자동사진관 공모전 수상자 발표합니다.</p>
+                    <div>2018.05.09</div>
+                    <span class="pc">2,871</span>
+                </li>
+            </ul>
+            <div class="pagenation">
+                <a href="#none" class="first">
+                    <img src="images/ico_first.svg" alt="처음으로 버튼">
+                </a>
+                <a href="#none" class="prev">
+                    <img src="images/ico_prev.svg" alt="이전으로 버튼">
+                </a>
+                <ul class="num">
+                    <li class="select">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ul>
+                <a href="#none" class="next">
+                    <img src="images/ico_next.svg" alt="다음으로 버튼">
+                </a>
+                <a href="#none" class="last">
+                    <img src="images/ico_last.svg" alt="끝으로 버튼">
+                </a>
+            </div>    
+        </div>    
+    </section>
+
+   
+    <footer>
+        <h2 class="blind">사이트 정보 영역</h2>
+        <div class="top"><img src="images/ico_top.svg" alt="위 화살표"></div>  
+        <div class="wrap">
+            <ul class="policy">
+                <li><a href="#none">개인정보처리방침</a></li>
+                <li><a href="#none">저작권정책</a></li>
+                <li><a href="#none">이메일무단수집거부</a></li>
+            </ul>
+            <address>04383&#41; 서울특별시 용산구 이태원로 22</address>
+            <p>COPYRIGHT&#40;C&#41; 이 사이트는 포트폴리오 용으로 제작되었습니다.</p>
+            <div class="selec">
+                <div class="op">유관 협력기관</div>
+                <ul class="op_list">
+                    <li><a href="#none">대한민국 대통령실</a></li>
+                    <li><a href="#none">정책브리핑</a></li>
+                    <li><a href="#none">국가정보원</a></li>
+                    <li><a href="#none">외교부</a></li>
+                    <li><a href="#none">경찰청</a></li>
+                    <li><a href="#none">경찰청</a></li>
+                    <li><a href="#none">대검찰청</a></li>
+                    <li><a href="#none">법무부</a></li>
+                    <li><a href="#none">국방부</a></li>
+                    <li><a href="#none">합동참모본부</a></li>
+                </ul>
+            </div>
+            <img src="images/mark.png" alt="웹접근성 마크" class="pc">
+            <ul class="sns">
+                <li>
+                    <a href="#none">
+                        <img src="images/ico_facebook.svg" alt="페이스북 링크">
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <img src="images/ico_instagram.svg" alt="인스타그램 링크">
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <img src="images/ico_youtube.svg" alt="유튜브 링크">
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <img src="images/ico_twitter.svg" alt="트위터 링크">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    
+    
+    <script src="js/header_script.js"></script>
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="그룹_466958" data-name="그룹 466958" transform="translate(-693.241 -2500.242)">
+    <path id="다각형_6" data-name="다각형 6" d="M13,0,26,21H0Z" transform="translate(741.241 2522.242) rotate(90)" fill="#fff"/>
+    <g id="타원_145" data-name="타원 145" transform="translate(693.241 2500.242)" fill="none" stroke="#fff" stroke-width="3">
+      <circle cx="35" cy="35" r="35" stroke="none"/>
+      <circle cx="35" cy="35" r="33.5" fill="none"/>
+    </g>
+  </g>
+</svg>

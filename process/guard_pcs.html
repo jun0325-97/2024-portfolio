@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>대통령 경호처 Process</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <h1><span>01 Web publishing</span> <br> 
+            대통령 경호처
+            </h1>
+            <h2>Overview</h2>
+            <p>
+            ‘대통령 경호처’ 는 와이드한 이미지, 비디오, 스크롤 애니메이션을 주로<br> 
+            사용한 사이트입니다. 전체적인 색감은 모노톤이며 디자인은 <br> 
+            간결하지만 다양한 동적 효과들이 더해져 사용자에게 보다<br>  
+            효과적으로 정보를 전달하므로 선정하여 제작하였습니다.
+            </p>
+            <img src="images/guard_main.png" alt="대통령 경호처 사이트 목업 이미지">
+        </div>
+    </header>
+    <section id="process">
+        <div class="sec1">
+            <div class="wrap">
+                <h2>Process</h2>
+                <div class="img_box">
+                    <img src="images/guard_process1.jpg" alt="코드 이미지1">
+                    <img src="images/arrow_btm.png" alt="아래 화살표">
+                    <img src="images/guard_process2.jpg" alt="코드 이미지2">
+                </div>
+                <div class="txt_box">
+                    <span></span>
+                    <p>
+                    메인 비디오의 <b>재생바</b>와 <b>재생/일시정지 버튼</b>을 제이쿼리로 구현하였습니다. <br> 
+                    재생/일시정지 버튼은 play() 메소드와 pause() 메소드를 
+                    사용했습니다. <br> 
+                    비디오 재생바 기능은 간단하게 표현할 수 있도록 setInterval 을 이용해 <br> 
+                    현재 재생률 [( 100 / 비디오 전체시간) * 비디오 현재시간] 을 <br>
+                    0.1초마다 재생바 ‘width’ 값에 ‘%’ 단위로 입력하였습니다.</p>
+                </div>
+            </div>
+        </div>
+        <div class="sec2">
+            <div class="wrap">
+                <div class="img_box">
+                    <video src="images/guard_vid1.webm" muted autoplay loop></video>
+                    <img src="images/arrow_btm.png" alt="아래 화살표">
+                    <img src="images/guard_process3.png" alt="코드 이미지3">
+                </div>
+                <div class="txt_box">
+                    <span></span>
+                    <p>
+                    addClass(), removeClass(), slide() 메소드를 이용하여 <br> 
+                    <b>헤더의 다양한 동적 효과</b>를 만들었습니다. <br> 
+                    또한 콜백함수를 이용해 순차적으로<br> 
+                    부드럽게 변하는 애니메이션을 구현하였습니다. <br> 
+                    스크롤 값을 감지해 헤더 숨김 처리를 통해 <br> 
+                    스크롤 업/다운에 맞춰 헤더를 사라지게 하였습니다.     
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sec3">
+            <div class="wrap">
+                <div class="img_box">
+                    <video src="images/guard_vid2.webm" muted autoplay loop></video>
+                    <img src="images/arrow_btm.png" alt="아래 화살표">
+                    <img src="images/guard_process4.jpg" alt="코드 이미지4">
+                </div>
+                <div class="txt_box">
+                    <span></span>
+                    <p>
+                    <b>트윈맥스와 스크롤매직 라이브러리</b>를 이용하여 <br>
+                    효율적인 스크롤 애니메이션을 구현하였습니다. <br>
+                    원하는 시작 지점과 애니메이션이 진행될 스크롤 값을<br>
+                    설정하여 현재 스크롤 값에 맞추어 배경이미지를 <br> 
+                    확대하고 텍스트가 강조되게 만들었습니다.    
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="epilogue">
+        <div class="wrap">
+            <div class="box">
+                <h2>Epillogue</h2>
+                <p> 사용자들이 쉽고 편리하게 접근할 수 있으면서도 디자인까지 조화로운 사이트를 만들어 보면<br> 제작과정에서 많은 도움이 될 수 있겠다 생각하여 '대통령 경호처'를 퍼블리싱 해보았습니다. <br> 레이아웃이 복잡하지 않아 보기엔 심플했지만 쾌적한 사용을 제공하는 동적효과가 많이 사용된 사이트였습니다.</p>
+                
+                <p>작업할 때 막히거나 오류가 생겼을 때는 교수님이나 동기들의 도움보다는 <br> 먼저 순차적으로 해결해보거나 서칭을 이용해서 혼자 해결하려 노력했습니다. <br> 물론 저만의 방식으로 코드를 쓰고 플러그인을 사용하려니 생각보다 작업시간을 많이 소모하기도 했습니다. <br> 앞으로 꾸준히 서칭하고 공부해서 적재적소에만 플러그인 또한 내 것으로 만들고 효율적인 작업을 해야겠다고 느꼈습니다. </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>새마을금고 Process</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="wrap mgbank">
+            <h1><span>03 Web publishing</span> <br> 
+            새마을 금고
+            </h1>
+            <h2>Overview</h2>
+            <p>
+            ‘새마을금고’ 사이트는 콘텐츠의 양이 많지만 다채로운 레이아웃과<br> 
+            깔끔한 애니메이션을 이용하여 사이트를 효율적으로 만들었습니다. <br> 
+            귀여운 캐릭터 일러스트와 부드러운 동적효과로 사용자들에게 <br>  
+            한층 편안한 사용경험을 제공하기에 선정해서 제작하였습니다.
+            </p>
+            <img src="images/mgbank_main.png" alt="새마을금고 사이트 목업 이미지">
+        </div>
+    </header>
+    <section id="process" class="mgbank">
+        <div class="sec1">
+            <div class="wrap">
+                <h2>Process</h2>
+                <div class="img_box">
+                    <video src="images/mgbank_vid1.webm" muted autoplay loop></video>
+                    <img src="images/arrow_btm.png" alt="아래 화살표">
+                    <img src="images/mgbank_process1.png" alt="코드 이미지1">
+                </div>
+                <div class="txt_box">
+                    <span></span>
+                    <p>
+                    슬라이드 프러그인을 사용하지 않고 다양한 기능들이<br>
+                    들어간 메인 <b>이미지 슬라이드</b>를 저만의 방식으로 구현했습니다. <br> 
+                    animate(), text(), addClass() 등 다양한 메소드를 이용하였고 <br>
+                    변수를 정의해서 현재 슬라이드의 순번을 보이게 하였습니다. <br>
+                    setInterval(), clearInterval()을 통해 기본값으로 슬라이드가 <br>
+                    재생되고 버튼을 누르면 멈추게 하였습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sec2">
+            <div class="wrap">
+                <div class="img_box">
+                    <video src="images/mgbank_vid2.webm" muted autoplay loop></video>
+                    <img src="images/arrow_btm.png" alt="아래 화살표">
+                    <img src="images/mgbank_process2.png" alt="코드 이미지2">
+                </div>
+                <div class="txt_box">
+                    <span></span>
+                    <p>
+                    서브 페이지의 기능들도 저만의 방식으로 만들어 보았습니다. <br>
+                    <b>탭메뉴</b>는 index()를 통해 간단히 연동돼서 기능할 수 있도록 하고<br> 
+                    <b>아코디언 메뉴</b>는 slideUp(),slideDown(),slideToggle() 메소드를<br> 
+                    이용하여 클릭한 요소만 보이고 나머지는 숨겨질 수 있게 했습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sec3">
+            <div class="wrap">
+                <div class="img_box">
+                    <img src="images/mgbank_mobile.png" alt="새마을금고 모바일 이미지">
+                    <img src="images/arrow_btm.png" alt="아래 화살표">
+                    <img src="images/mgbank_process3-1.png" alt="코드 이미지3">
+                    <img src="images/mgbank_process3-2.png" alt="코드 이미지4">
+                </div>
+                <div class="txt_box">
+                    <span></span>
+                    <p>
+                    모바일 사용자를 고려하여 미디어 쿼리를 <br> 
+                    이용한 <b>반응형 웹페이지</b>로 제작하였습니다. <br> 
+                    스타일 시트 작성시 너비 값을 % 단위로 설정하여 <br> 
+                    보다 빠르고 효율적인 모바일 페이지를 만들었습니다.
+                    </p>
+                    <p>
+                    제이쿼리로 pc용 슬라이드를 구현하였지만<br>
+                    모바일용은 터치 슬라이드를 상용하기 편한<br> 
+                    스와이퍼 플러그인을 이용하여 만들었습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="epilogue" class="mgbank">
+        <div class="wrap">
+            <div class="box">
+                <h2>Epillogue</h2>
+                <p> 처음 반응형과 동적인 처리를 다 넣어서 만들어서 제작해본 사이트입니다. <br> 기능을 구현하지 않고 반응형을 만들 때는 보다 손쉽게 할 수 있었지만 마크업부터 동적 효과까지 반응형 웹사이트를 염두에 두고 만드려니 <br> 많이 헤메기도 했지만 그럴 땐 서칭을 이용하거나 잠시 쉬었다 다른 관점으로 문제를 해결할 수도 있다는 것을 깨닫게 되는 작업이었습니다. </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

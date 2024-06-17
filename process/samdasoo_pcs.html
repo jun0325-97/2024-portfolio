@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>삼다수 Process</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="wrap samdasoo">
+            <h1><span>02 Web publishing</span> <br> 
+            삼다수
+            </h1>
+            <h2>Overview</h2>
+            <p>
+            ‘삼다수’ 사이트는 비주얼적인 부분과 브랜드 아이덴티티를 중점으로<br> 
+            만들어졌습니다. 전체적인 색감은 브랜드 컬러를 살렸고<br> 
+            이미지에 입체적인 동적 효과들을 적용시켜 사용자에게 <br>  
+            본인들의 브랜드를 확실히 각인시키므로 선정하여 제작하였습니다.
+            </p>
+            <img src="images/samdasoo_main.png" alt="삼다수 사이트 목업 이미지">
+        </div>
+    </header>
+    <section id="process" class="samdasoo">
+        <div class="sec1">
+            <div class="wrap">
+                <h2>Process</h2>
+                <div class="img_box">
+                    <video src="images/samdasoo_vid1.webm" muted autoplay loop></video>
+                    <img src="images/arrow_btm.png" alt="아래 화살표">
+                    <img src="images/samdasoo_process1.png" alt="코드 이미지1">
+                </div>
+                <div class="txt_box">
+                    <span></span>
+                    <p>
+                    메인 비쥬얼에 상품 이미지와 텍스트를 이용한 <br> <b>스크롤 애니메이션</b>을 scrollTop() 값과 if문을 통해 구현하였습니다. <br> const로 각 섹션의 변하지 않는 거리값을 정의하여<br> 스크롤 값에 맞는 애니메이션을 작동하게 하였습니다.
+                    <br> 현재 스크롤 값과 섹션 스크롤 값의 합을 계산하여 상품 이미지의 <br> opacity값에 입력하여 스크롤 페이드 효과를 주었습니다. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sec2">
+            <div class="wrap">
+                <div class="img_box">
+                    <video src="images/samdasoo_vid2.webm" muted autoplay loop></video>
+                    <img src="images/arrow_btm.png" alt="아래 화살표">
+                    <img src="images/samdasoo_process2.png" alt="코드 이미지2">
+                </div>
+                <div class="txt_box">
+                    <span></span>
+                    <p>
+                    서브 페이지 메인 비쥬얼을 스크롤 할 시 <br>
+                    현재 스크롤 값을 감지하여 메인 비주얼 배경 이미지의 <br> 
+                    position-y 값을 스크롤 값의 0.4배 값이 되도록 하여 더욱 <br> <b>입체적인 스크롤 애니메이션</b>을 구현하였습니다. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sec3">
+            <div class="wrap">
+                <div class="img_box">
+                    <img src="images/samdasoo_mobile.png" alt="삼다수 모바일 이미지">
+                    <img src="images/arrow_btm.png" alt="아래 화살표">
+                    <img src="images/samdasoo_process3-1.png" alt="코드 이미지3">
+                    <img src="images/samdasoo_process3-2.png" alt="코드 이미지4">
+                </div>
+                <div class="txt_box">
+                    <span></span>
+                    <p>
+                    모바일 사용자를 고려하여 미디어 쿼리를 <br> 
+                    이용한 <b>반응형 웹페이지</b>로 제작하였습니다. <br> 
+                    스타일 시트 작성시 너비 값을 % 단위로 설정하여 <br> 
+                    보다 빠르고 효율적인 모바일 페이지를 만들었습니다.
+                    </p>
+                    <p>
+                    제이쿼리로 슬라이드를 구현할 때 기본적인 동작들은<br>
+                    <b>상용할 수 있게 작성</b>하였고 모바일과 pc의 값이 다른 동작은<br> 
+                    body의 width값을 이용한 if문으로 구분해 만들었습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="epilogue" class="samdasoo">
+        <div class="wrap">
+            <div class="box">
+                <h2>Epillogue</h2>
+                <p> 간결하지만 독특한 디자인과 입체적인 애니메이션을 많이 활용한 사이트인<br> '삼다수'를 보고 제작하며 다양한 아이디어를 얻을 수 있었습니다. <br> 고퀄리티의 이미지를 사용하면서 공간감까지 더해주니 더욱 몰입감을 느낄 수 있다는 것을 느꼈습니다. </p>
+                
+                <p>지정된 스크롤 값과 현재 스크롤 값을 계산하여 opacity를 주거나 <br> 배경 이미지를 스크롤 값의 0.4배속으로 올라가게 하는 간단한 계산식들을 쓰면서 <br> 논리적으로 접근하게 되면 코드를 더 간결하고 효율적이게 쓸 수 있다는 배움을 얻었습니다. <br> 아직 많이 부족하지만 그럴수록 코드들을 이해하고 넘어가야겠다는 다짐이 들었습니다. </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
